@@ -40,7 +40,7 @@
         </dependency>
         <dependency>
             <groupId>se554</groupId>
-            <artifactId>ChangeManager-pc</artifactId>
+            <artifactId>ChangeManager-remote</artifactId>
             <version>1.0.1</version>
         </dependency>
     </dependencies>

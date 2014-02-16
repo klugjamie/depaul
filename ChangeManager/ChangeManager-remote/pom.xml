@@ -9,7 +9,7 @@
   </parent>
 
   <!-- Persistence context to be shared between EJB and WEB -->  
-  <artifactId>ChangeManager-pc</artifactId>
+  <artifactId>ChangeManager-remote</artifactId>
   <packaging>jar</packaging>
-  <name>ChangeManager-pc</name>
+  <name>ChangeManager-remote</name>
 </project>

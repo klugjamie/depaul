@@ -9,7 +9,7 @@ import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import se554.ChangeManager.persistence.ChangeManager;
+import se554.ChangeManager.persistence.Ticket;
 
 
 @SessionScoped
@@ -20,11 +20,11 @@ public class ChangeManagerBean implements Serializable {
     @PersistenceContext(unitName = "changemanagerPU")
     private EntityManager entityManager;
     
-    public List<ChangeManager> getChangeManagerList() throws SQLException {
+    public List<Ticket> getTicketList() throws SQLException {
         
         logger.info("Before getting connection");
         
-        List<ChangeManager> list = entityManager.createQuery("select a from ChangeManager a").getResultList();
+        List<Ticket> list = entityManager.createQuery("select a from Ticket a").getResultList();
         
         logger.log(Level.INFO, "Before returning: {0}", list.size());
         

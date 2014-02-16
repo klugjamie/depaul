@@ -1,6 +1,6 @@
 package se554.ChangeManager.init;
 
-import se554.ChangeManager.persistence.ChangeManager;
+import se554.ChangeManager.persistence.Ticket;
 import java.util.logging.Logger;
 import javax.annotation.PostConstruct;
 import javax.ejb.DependsOn;

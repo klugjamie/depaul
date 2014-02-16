@@ -10,4 +10,16 @@
     <artifactId>ChangeManager-ejb</artifactId>
     <packaging>ejb</packaging>
     <name>ChangeManager-ejb</name>
+        <dependencies>
+        <dependency>
+            <groupId>se554.ChangeManager</groupId>
+            <artifactId>ChangeManager-remote</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>
+
+
+
+ 

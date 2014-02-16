@@ -12,7 +12,7 @@
         <module>ChangeManager-ear</module>
         <module>ChangeManager-web</module>
         <module>ChangeManager-ejb</module>
-        <module>ChangeManager-pc</module>
+        <module>ChangeManager-remote</module>
     </modules>
 
     <properties>
