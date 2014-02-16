@@ -13,10 +13,10 @@ import javax.ejb.TransactionAttributeType;
 public interface TicketServiceRemote {
         //define methods here to be used by TicketService - ejb
 
-    public long createTicket(String name) throws Exception;
-    public long updateStatus(long ticketNumber, int newStatus) throws Exception;
+    //public long createTicket(String name) throws Exception;
+    //public long updateStatus(long ticketNumber, int newStatus) throws Exception;
     //etc.......
-    public List getAllTickets();
+    //public List getAllTickets();
 
 
 
