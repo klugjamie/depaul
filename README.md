@@ -1,4 +1,4 @@
 depaul
 ======
 
-Programs from depaul
+Programs written during my time at DePaul.
